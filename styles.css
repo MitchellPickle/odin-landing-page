@@ -1,0 +1,24 @@
+.logo, img {
+    width: 20%;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    background: #233f66;
+    align-items: center;
+}
+.link, ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+ul, a {
+    color: white;
+    font-family: 'Roboto';
+}
+ul, a:hover {
+    color: #04bef7;
+}
+li {
+    margin: 8px;
+}
