@@ -7,14 +7,14 @@
     font-family: 'Roboto';
 }
 
-.logo, img {
+#header-image {
     width: 25%;
 }
 
 .header{
     display: flex;
     justify-content: space-evenly;
-    background: #233f66;
+    background: #1f2937;
     align-items: center;
     padding-left: 32px;
     padding-right: 32px;
@@ -22,7 +22,7 @@
 
 .intro {
     display: flex;
-    background: #233f66;
+    background: #1f2937;
     justify-content: center;
     align-items: center;
     gap: 30px;
@@ -34,6 +34,15 @@
     flex-direction: column;
 }
 
+.intro-left-header {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.intro-left-paragraph {
+    font-size: 18px;
+}
+
 .button {
     text-align: center;
     background-color: #3882f6;
@@ -42,13 +51,49 @@
     height: 50px;
 }
 
+.hideaway-link {
+    width: 100px;
+    height: 50px;
+}
+
+#intro-pizza {
+    width: auto;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+}
+
+.info-item {
+    max-width: 400px;
+}
+
+.info-item, img {
+    width: 200px;
+    height: 200px;
+}
+
+.info-image {
+    border: #3882f6 8px solid;
+    border-radius: 8px;
+}
+
+.info-header {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    text-align: center;
+}
+
 .link, ul {
     list-style-type: none;
     display: flex;
     flex-direction: row;
 }
 
-ul, a, h1, p {
+.header, ul, a, h1, p {
     color: white;
 }
 
@@ -59,4 +104,5 @@ ul, a:hover {
 li {
     margin: 8px;
 }
+
 
