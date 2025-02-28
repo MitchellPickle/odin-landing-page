@@ -27,6 +27,7 @@
     align-items: center;
     gap: 30px;
     padding-bottom: 45px;
+    padding-left: 25px;
 }
 
 .intro-left {
@@ -58,12 +59,14 @@
 
 #intro-pizza {
     width: auto;
+    padding-right: 25px;
 }
 
 .info {
     display: flex;
     justify-content: center;
     gap: 64px;
+    padding-bottom: 100px;
 }
 
 .info-item {
@@ -85,6 +88,36 @@
     color: #1f2937;
     font-weight: 900;
     text-align: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.quote-info {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    text-align: center;
+    word-wrap: normal;
+    padding-top: 50px;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.quote-name {
+    display: flex;
+    justify-content: right;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    padding-left: 500px;
 }
 
 .link, ul {
